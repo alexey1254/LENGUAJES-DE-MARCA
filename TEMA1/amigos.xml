@@ -1,0 +1,33 @@
+<agenda>
+	<amigo>
+		<telefono>663322332</telefono>
+		<nombre>Juan</nombre>
+		<dirección>C/El puente, 1</dirección>
+	</amigo>
+	<amigo>
+		<telefono>627292012</telefono>
+		<nombre>Luisa</nombre>
+		<dirección>C/ Las Cabezas, 11</dirección>
+	</amigo>
+</agenda>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+663322332:Juan;C/El puente, 1
+627292012:Luisa;C/ Las Cabezas, 11
