@@ -1,0 +1,107 @@
+<!--contraseña, repetir contraseña, Direccion, teléfono, generos favoritos,
+forma de pago, Observaciones
+Enviar y borrar formulario-->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<title>Mi formulario</title>
+</head>
+<header>Formulario</header>
+
+<body>
+	<!-- multipart/form-data permite enviar ficheros ademas de datos-->
+	<!-- action envia los datos ya sea a un servidor o archivo local php-->
+	<!-- Hacerlo dentro de una tabla-->
+	<form action="" method="post" enctype="multipart/formd-data">
+		<table class="default" title="Formulario">
+			<tr>
+				<td><label>D.N.I: </label></td>
+				<td><input type="number" name="dni" id="dni" min="10000000"max="99999999"/></td>
+				<td><label for="dni">Letra</label></td>
+				<td>
+					<select id="letra" name="letra">
+						<option value="T">T</option>
+						<option value="R">R</option>
+						<option value="W">W</option>
+						<option value="A">A</option>
+						<option value="G">G</option>
+						<option value="M">M</option>
+						<option value="Y">Y</option>
+						<option value="F">F</option>
+						<option value="P">P</option>
+						<option value="D">D</option>
+						<option value="X">X</option>
+						<option value="B">B</option>
+						<option value="N">N</option>
+						<option value="J">J</option>
+						<option value="Z">Z</option>
+						<option value="S">S</option>
+						<option value="Q">Q</option>
+						<option value="V">V</option>
+						<option value="H">H</option>
+						<option value="L">L</option>
+						<option value="C">C</option>
+						<option value="K">K</option>
+						<option value="E">E</option>
+					</select>
+				</td>
+		</tr>
+		<tr>
+			<td><label>Nombre: </label></td>
+			<td><input type="text" name="nombre" id="nombre" maxlength="20" size="20"><br></td>
+		</tr>
+		<tr>
+			<td><label>Apellidos: </label></td>
+			<td><input type="text" name="apellidos" id="apellidos" maxlenght="20" size="20"><br></td>
+		</tr>
+		<tr>
+			<td><label>Fecha de nacimiento: </label></td>
+			<td><input type="date" name="f-nacimiento" id="f-nacimiento" maxlength="20" size="20"><br></td>
+		</tr>
+		<tr>
+			<td><label>Contraseña: </label></td>
+			<td><input type="password" name="contraseña" id="contraseña" maxlength="20" size="20"></input><br></td>
+		</tr>
+		<tr>
+			<td><label>Repetir contraseña: </label></td>
+			<td><input type="password" name="repetircontra" id="repetircontra" maxlength="20" size="20"></input></td>
+		<tr>
+			<td><label>Direccion: </label></td>
+			<td><input type="text" name="direccion" id="direccion" maxlength="20" size="20"></input></td>
+		</tr>
+		<tr>
+			<td><label>Teléfono: </label></td>
+			<td><input for="Introduce tu dirección" type="number" name="telefono" id="telefono" max="999999999"min="100000000"
+					size="20"></input></td>
+		</tr>
+		<tr>
+			<td><label>Generos favoritos: </label></td>
+			<td>
+				<input type="checkbox" name="dramatico" id="dramatico">Dramático</input>
+				<input type="checkbox" name="Humor" id="Humor">Humor</input>
+				<input type="checkbox" name="terror" id="terror">Terror</input>
+				<input type="checkbox" name="musical" id="musical">Musical</input>
+			</td>
+		</tr>
+		<tr>
+			<td><label>Forma de pago</label></td>
+			<td>
+				<input value="transferencia" type="radio" name="fpago" id="transferencia" for="transferencia">Transferencia</input>
+				<input value="bizum" type="radio" name="fpago" id="metalico">Metálico</input>
+				<input type="radio" value="tercero" name="fpago" id="pago">Tercero</input>
+			</td>
+			</tr>
+			<tr>
+				<td><label>Observaciones</label></td>
+				<td><textarea name="observaciones" id="observaciones" cols="30" rows="10"></textarea></td>
+			</tr>
+			<tr>
+				<td><button type="submit">Enviar</button></td>
+				<td><input type="reset" name="restablecer" id="restablecer"></input></td>
+			</tr>
+			</table>
+			</form>
+			</body>
+</html>
