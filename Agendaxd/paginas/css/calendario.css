@@ -1,0 +1,30 @@
+body {
+  background-color: honeydew;
+}
+#asignaturas {
+  text-align: center;
+  font-size: x-large;
+  align-content: center;
+  table-layout: fixed;
+  width: 100%;
+  border: black solid 2px;
+  border-collapse: collapse;
+  border-width: medium;
+}
+.cabeceras {
+  background-color: lightcyan;
+  font-size: xx-large;
+  font-style: oblique;
+}
+.contenido {
+  background-color: aquamarine;
+}
+#fol1 {
+  text-decoration: line-through;
+}
+#fol2 {
+  text-decoration: line-through;
+}
+#fol3 {
+  text-decoration: line-through;
+}
