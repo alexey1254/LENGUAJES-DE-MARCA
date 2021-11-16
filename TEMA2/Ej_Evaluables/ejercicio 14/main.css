@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div {
+    float: left;
+    border: 1px solid black;
+}
+#capa1 {
+    width: 25%;
+    background: blue;
+}
+#capa2 {
+    background: red;
+    width: 75%;
+}
+.alto25 {
+    height: 25vh;
+
+}
+#capa3 {
+    width: 50%;
+    background: rebeccapurple;
+}
+#capa4 {
+    width: 25%;
+    background: aqua;
+}
+#capa5 {
+    width: 25%;
+    background: moccasin;
+}
+#capa3,
+#capa4,
+#capa5 {
+    height: 50vh;
+}
+#capa6,
+#capa7,
+#capa8,
+#capa9 {
+    width: 25%;
+}
+#capa6 {
+    background: gray;
+}
+#capa7 {
+    background: #53f;
+}
+#capa8 {
+    background: rosybrown;
+}
+#capa9 {
+    background: greenyellow;
+}
