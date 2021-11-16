@@ -1,24 +1,33 @@
 * {
-    border:0; 
+    border: 0;
     text-align: center;
 }
-#Tabla{
+#Tabla {
     margin: auto;
 }
-table *{
+table * {
     border: 1px solid black;
     border-collapse: collapse;
     height: 10vh;
     width: 10vw;
 }
-.cabeceras{
+.cabeceras {
     font-weight: bold;
 }
-.colores{
+.colores {
     width: 35px;
     height: 30px;
     border: none;
 }
-.imagenmp3{
+.imagenmp3 {
     border: none;
+}
+tr:nth-child(odd) {
+    background: lightblue;
+}
+tr {
+    background: honeydew;
+}
+#dosHoras {
+    background: lightblue;
 }

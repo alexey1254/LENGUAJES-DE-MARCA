@@ -4,8 +4,17 @@ table {
     height: 310px;
     text-align: center;
     color-interpolation-filters: sRGB;
-    background-image: url(imagen.jpg);
 }
-tr:nth-child(odd){
-    background: #81d352;
+tr:nth-child(odd) {
+    background: #a5e580;
+}
+tr {
+    background: lightblue;
+}
+body {
+    background-color: blueviolet;
+    height: 100%;
+    background-repeat: no-repeat;
+    background: url('imagen.jpg') no-repeat center center fixed;
+    background-size: 100% 100%;
 }
