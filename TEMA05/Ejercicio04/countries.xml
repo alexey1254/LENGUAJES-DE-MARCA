@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="countries.xsl"?>
 <?xml-model href="countriesSchema.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-stylesheet type="text/xsl" href="countries.xsl"?>
 <countries>
   <country name="Afghanistan" population="22664136" area="647500">
     <language percentage="11">Turkic</language>
