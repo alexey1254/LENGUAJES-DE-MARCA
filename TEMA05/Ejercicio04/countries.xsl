@@ -3,30 +3,30 @@
     <xsl:output method="html" />
     <xsl:template match="/">
         <html>
-            <style></style>
+            <span>
+                
+            </span>
             <body>
-                <h2>Paises</h2>
-                <table border="1">
+                <h2>Paises de habla española</h2>
+                <table border="1px">
                     <tr>
                         <th>Nombre del Pais</th>
-                        <th>Poblacion</th>
-                        <th>Area</th>
-                        <th>Lenguas</th>
+                        <th>Numero de Lenguas</th>
+                        <th>Numero de Habitantes</th>
+                        <th>Densidad</th>
                     </tr>
-                    <xsl:for-each select="countries/country">
-                        <tr>
-                            <td>
-                                <xsl:value-of select="@name" />
-                            </td>
-                            <td>
-                                <xsl:value-of select="@population" />
-                            </td>
-                            <td>
-                                <xsl:value-of select="@area" />
-                            </td>
-                            <td></td>
-                        </tr>
-                    </xsl:for-each>
+                    <tr>
+                        <td>
+                            <xsl:variable name="lengua" select="countries/country/language"/>
+                            <xsl:if test="contains($lengua,'spanish')">
+                                <xsl:for-each select="../country">
+                                    <td>
+                                        <xsl:value-of select="@name"/>
+                                    </td>
+                                </xsl:for-each>
+                            </xsl:if>
+                        </td>
+                    </tr>
                 </table>
             </body>
         </html>
