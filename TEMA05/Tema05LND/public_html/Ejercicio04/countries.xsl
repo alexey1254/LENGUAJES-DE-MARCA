@@ -22,17 +22,13 @@
                         </td>
                         </tr>
                     </xsl:for-each>
-                    <tr>
-                        <xsl:for-each select="//language[.='Spanish']">
-                            <tr>
-                                <td>
-                                    <xsl:value-of select="countries/country[ @population div @area ]"/>
-                                </td>
-                            </tr>
-                        </xsl:for-each>
-                    </tr>
-                    
-                                
+                    <xsl:for-each select="//language[.='Spanish']">
+                        <tr>
+                            <td>
+                                <xsl:value-of select="/[(@population div @area)]"/>
+                            </td>
+                        </tr>
+                    </xsl:for-each>
                 </table>
             </body>
         </html>

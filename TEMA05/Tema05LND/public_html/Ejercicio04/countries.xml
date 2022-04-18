@@ -1,21 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>	
-<?xml-stylesheet type="text/xsl" href="4.2.3V3.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="countries.xsl"?>
+<?xml-stylesheet href="countriesSchema.xsl" type="text/xsl"?>
 <countries>
   <country name="Afghanistan" population="22664136" area="647500">
     <language percentage="11">Turkic</language>
     <language percentage="35">Pashtu</language>
     <language percentage="50">Afghan Persian</language>
   </country>
-  <country name="Albania" population="3249136" area="28750"/>
+  <country name="Albania" population="3249136" area="28750" />
   <country name="Algeria" population="29183032" area="2381740">
     <city>
       <name>Algiers</name>
       <population>1507241</population>
     </city>
   </country>
-  <country name="American Samoa" population="59566" area="199"/>
-  <country name="Andorra" population="72766" area="450"/>
-  <country name="Angola" population="10342899" area="1246700"/>
+  <country name="American Samoa" population="59566" area="199" />
+  <country name="Andorra" population="72766" area="450" />
+  <country name="Angola" population="10342899" area="1246700" />
   <country name="Anguilla" population="10424" area="91">
     <language percentage="100">English</language>
   </country>
@@ -48,7 +49,7 @@
     <language percentage="2">Russian</language>
     <language percentage="96">Armenian</language>
   </country>
-  <country name="Aruba" population="67794" area="193"/>
+  <country name="Aruba" population="67794" area="193" />
   <country name="Australia" population="18260864" area="7686850">
     <city>
       <name>Sydney</name>
@@ -88,8 +89,8 @@
     <language percentage="2">Armenian</language>
     <language percentage="89">Azeri</language>
   </country>
-  <country name="Bahamas" population="259367" area="13940"/>
-  <country name="Bahrain" population="590042" area="620"/>
+  <country name="Bahamas" population="259367" area="13940" />
+  <country name="Bahrain" population="590042" area="620" />
   <country name="Bangladesh" population="123062800" area="144000">
     <city>
       <name>Dhaka</name>
@@ -114,17 +115,17 @@
     <language percentage="1">German</language>
     <language percentage="56">Dutch</language>
   </country>
-  <country name="Belize" population="219296" area="22960"/>
-  <country name="Benin" population="5709529" area="112620"/>
+  <country name="Belize" population="219296" area="22960" />
+  <country name="Benin" population="5709529" area="112620" />
   <country name="Bermuda" population="62099" area="50">
     <language percentage="100">English</language>
   </country>
-  <country name="Bhutan" population="1822625" area="47000"/>
-  <country name="Bolivia" population="7165257" area="1098580"/>
+  <country name="Bhutan" population="1822625" area="47000" />
+  <country name="Bolivia" population="7165257" area="1098580" />
   <country name="Bosnia and Herzegovina" population="2656240" area="51233">
     <language percentage="99">Serbo-Croatian</language>
   </country>
-  <country name="Botswana" population="1477630" area="600370"/>
+  <country name="Botswana" population="1477630" area="600370" />
   <country name="Brazil" population="162661216" area="8511965">
     <city>
       <name>Manaus</name>
@@ -174,7 +175,7 @@
   <country name="British Virgin Islands" population="13195" area="150">
     <language percentage="100">English</language>
   </country>
-  <country name="Brunei" population="299939" area="5770"/>
+  <country name="Brunei" population="299939" area="5770" />
   <country name="Bulgaria" population="8612757" area="110910">
     <city>
       <name>Sofia</name>
@@ -182,7 +183,7 @@
     </city>
     <language percentage="100">Bulgarian</language>
   </country>
-  <country name="Burkina Faso" population="10623323" area="274200"/>
+  <country name="Burkina Faso" population="10623323" area="274200" />
   <country name="Burma" population="45975624" area="678500">
     <city>
       <name>Rangoon</name>
@@ -190,21 +191,21 @@
     </city>
     <language percentage="100">Burmese</language>
   </country>
-  <country name="Burundi" population="5943057" area="27830"/>
-  <country name="Cambodia" population="10861218" area="181040"/>
-  <country name="Cameroon" population="14261557" area="475440"/>
+  <country name="Burundi" population="5943057" area="27830" />
+  <country name="Cambodia" population="10861218" area="181040" />
+  <country name="Cameroon" population="14261557" area="475440" />
   <country name="Canada" population="28820672" area="9976140">
     <city>
       <name>Montreal</name>
       <population>1017666</population>
     </city>
   </country>
-  <country name="Cape Verde" population="449066" area="4030"/>
+  <country name="Cape Verde" population="449066" area="4030" />
   <country name="Cayman Islands" population="34646" area="260">
     <language percentage="100">English</language>
   </country>
-  <country name="Central African Republic" population="3274426" area="622980"/>
-  <country name="Chad" population="6976845" area="1284000"/>
+  <country name="Central African Republic" population="3274426" area="622980" />
+  <country name="Chad" population="6976845" area="1284000" />
   <country name="Chile" population="14333258" area="756950">
     <city>
       <name>Santiago</name>
@@ -403,11 +404,11 @@
     </city>
     <language percentage="100">Spanish</language>
   </country>
-  <country name="Comoros" population="569237" area="2170"/>
-  <country name="Congo" population="2527841" area="342000"/>
-  <country name="Cook Islands" population="19561" area="240"/>
-  <country name="Costa Rica" population="3463083" area="51100"/>
-  <country name="Cote dIvoire" population="14762445" area="322460"/>
+  <country name="Comoros" population="569237" area="2170" />
+  <country name="Congo" population="2527841" area="342000" />
+  <country name="Cook Islands" population="19561" area="240" />
+  <country name="Costa Rica" population="3463083" area="51100" />
+  <country name="Cote dIvoire" population="14762445" area="322460" />
   <country name="Croatia" population="5004112" area="56538">
     <language percentage="96">Serbo-Croatian</language>
   </country>
@@ -418,7 +419,7 @@
     </city>
     <language percentage="100">Spanish</language>
   </country>
-  <country name="Cyprus" population="744609" area="9250"/>
+  <country name="Cyprus" population="744609" area="9250" />
   <country name="Czech Republic" population="10321120" area="78703">
     <city>
       <name>Prague</name>
@@ -431,8 +432,8 @@
       <population>1358540</population>
     </city>
   </country>
-  <country name="Djibouti" population="427642" area="22000"/>
-  <country name="Dominica" population="82926" area="750"/>
+  <country name="Djibouti" population="427642" area="22000" />
+  <country name="Dominica" population="82926" area="750" />
   <country name="Dominican Republic" population="8088881" area="48730">
     <city>
       <name>Santo Domingo</name>
@@ -464,10 +465,10 @@
       <population>6053000</population>
     </city>
   </country>
-  <country name="El Salvador" population="5828987" area="21040"/>
-  <country name="Equatorial Guinea" population="431282" area="28050"/>
-  <country name="Eritrea" population="3427883" area="121320"/>
-  <country name="Estonia" population="1459428" area="45100"/>
+  <country name="El Salvador" population="5828987" area="21040" />
+  <country name="Equatorial Guinea" population="431282" area="28050" />
+  <country name="Eritrea" population="3427883" area="121320" />
+  <country name="Estonia" population="1459428" area="45100" />
   <country name="Ethiopia" population="57171664" area="1127127">
     <city>
       <name>Addis Ababa</name>
@@ -477,8 +478,8 @@
   <country name="Falkland Islands" population="2374" area="12170">
     <language percentage="100">English</language>
   </country>
-  <country name="Faroe Islands" population="43857" area="1400"/>
-  <country name="Fiji" population="782381" area="18270"/>
+  <country name="Faroe Islands" population="43857" area="1400" />
+  <country name="Fiji" population="782381" area="18270" />
   <country name="Finland" population="5105230" area="337030">
     <language percentage="6.3">Swedish</language>
     <language percentage="93.5">Finnish</language>
@@ -493,9 +494,9 @@
   <country name="French Guiana" population="151187" area="91000">
     <language percentage="100">French</language>
   </country>
-  <country name="French Polynesia" population="224911" area="4167"/>
-  <country name="Gabon" population="1172798" area="267670"/>
-  <country name="Gambia" population="1204984" area="11300"/>
+  <country name="French Polynesia" population="224911" area="4167" />
+  <country name="Gabon" population="1172798" area="267670" />
+  <country name="Gambia" population="1204984" area="11300" />
   <country name="Georgia" population="5219810" area="69700">
     <city>
       <name>Tbilisi</name>
@@ -525,30 +526,30 @@
     </city>
     <language percentage="100">German</language>
   </country>
-  <country name="Ghana" population="17698272" area="238540"/>
-  <country name="Gibraltar" population="28765" area="6.5"/>
-  <country name="Greece" population="10538594" area="131940"/>
-  <country name="Greenland" population="58203" area="2175600"/>
-  <country name="Grenada" population="94961" area="340"/>
+  <country name="Ghana" population="17698272" area="238540" />
+  <country name="Gibraltar" population="28765" area="6.5" />
+  <country name="Greece" population="10538594" area="131940" />
+  <country name="Greenland" population="58203" area="2175600" />
+  <country name="Grenada" population="94961" area="340" />
   <country name="Guadeloupe" population="407768" area="1780">
     <language percentage="99">French</language>
   </country>
-  <country name="Guam" population="156974" area="541.3"/>
+  <country name="Guam" population="156974" area="541.3" />
   <country name="Guatemala" population="11277614" area="108890">
     <language percentage="60">Spanish</language>
     <language percentage="40">Indian</language>
   </country>
-  <country name="Guernsey" population="62920" area="194"/>
+  <country name="Guernsey" population="62920" area="194" />
   <country name="Guinea" population="7411981" area="245860">
     <language percentage="100">French</language>
   </country>
-  <country name="Guinea-Bissau" population="1151330" area="36120"/>
-  <country name="Guyana" population="712091" area="214970"/>
+  <country name="Guinea-Bissau" population="1151330" area="36120" />
+  <country name="Guyana" population="712091" area="214970" />
   <country name="Haiti" population="6731539" area="27750">
     <language percentage="10">French</language>
   </country>
-  <country name="Holy See" population="840" area="0.44"/>
-  <country name="Honduras" population="5605193" area="112090"/>
+  <country name="Holy See" population="840" area="0.44" />
+  <country name="Honduras" population="5605193" area="112090" />
   <country name="Hungary" population="10002541" area="93030">
     <city>
       <name>Budapest</name>
@@ -695,8 +696,8 @@
       <population>4478000</population>
     </city>
   </country>
-  <country name="Ireland" population="3566833" area="70280"/>
-  <country name="Israel" population="5421995" area="20770"/>
+  <country name="Ireland" population="3566833" area="70280" />
+  <country name="Israel" population="5421995" area="20770" />
   <country name="Italy" population="57460272" area="301230">
     <city>
       <name>Milano</name>
@@ -711,7 +712,7 @@
       <population>1206013</population>
     </city>
   </country>
-  <country name="Jamaica" population="2595275" area="10990"/>
+  <country name="Jamaica" population="2595275" area="10990" />
   <country name="Japan" population="125449704" area="377835">
     <city>
       <name>Sapporo</name>
@@ -759,8 +760,8 @@
     </city>
     <language percentage="100">Japanese</language>
   </country>
-  <country name="Jersey" population="87848" area="117"/>
-  <country name="Jordan" population="4212152" area="89213"/>
+  <country name="Jersey" population="87848" area="117" />
+  <country name="Jordan" population="4212152" area="89213" />
   <country name="Kazakstan" population="16916464" area="2717300">
     <city>
       <name>Almaty</name>
@@ -774,20 +775,20 @@
       <population>2000000</population>
     </city>
   </country>
-  <country name="Kiribati" population="80919" area="717"/>
-  <country name="Kuwait" population="1950047" area="17820"/>
-  <country name="Kyrgyzstan" population="4529648" area="198500"/>
-  <country name="Laos" population="4975772" area="236800"/>
-  <country name="Latvia" population="2468982" area="64100"/>
-  <country name="Lebanon" population="3776317" area="10400"/>
-  <country name="Lesotho" population="1970781" area="30350"/>
+  <country name="Kiribati" population="80919" area="717" />
+  <country name="Kuwait" population="1950047" area="17820" />
+  <country name="Kyrgyzstan" population="4529648" area="198500" />
+  <country name="Laos" population="4975772" area="236800" />
+  <country name="Latvia" population="2468982" area="64100" />
+  <country name="Lebanon" population="3776317" area="10400" />
+  <country name="Lesotho" population="1970781" area="30350" />
   <country name="Liberia" population="2109789" area="111370">
     <language percentage="20">English</language>
   </country>
-  <country name="Libya" population="5445436" area="1759540"/>
-  <country name="Liechtenstein" population="31122" area="160"/>
-  <country name="Lithuania" population="3646041" area="65200"/>
-  <country name="Luxembourg" population="415870" area="2586"/>
+  <country name="Libya" population="5445436" area="1759540" />
+  <country name="Liechtenstein" population="31122" area="160" />
+  <country name="Lithuania" population="3646041" area="65200" />
+  <country name="Luxembourg" population="415870" area="2586" />
   <country name="Macau" population="496837" area="16">
     <language percentage="4">Portuguese</language>
   </country>
@@ -803,24 +804,24 @@
       <population>1250000</population>
     </city>
   </country>
-  <country name="Malawi" population="9452844" area="118480"/>
+  <country name="Malawi" population="9452844" area="118480" />
   <country name="Malaysia" population="19962892" area="329750">
     <city>
       <name>Kuala Lumpur</name>
       <population>1145075</population>
     </city>
   </country>
-  <country name="Maldives" population="270758" area="300"/>
+  <country name="Maldives" population="270758" area="300" />
   <country name="Mali" population="9653261" area="1240000">
     <language percentage="80">Bambara</language>
   </country>
-  <country name="Malta" population="375576" area="320"/>
-  <country name="Man" population="73837" area="588"/>
-  <country name="Marshall Islands" population="58363" area="181.3"/>
-  <country name="Martinique" population="399151" area="1100"/>
-  <country name="Mauritania" population="2336048" area="1030700"/>
-  <country name="Mauritius" population="1140256" area="1860"/>
-  <country name="Mayotte" population="100838" area="375"/>
+  <country name="Malta" population="375576" area="320" />
+  <country name="Man" population="73837" area="588" />
+  <country name="Marshall Islands" population="58363" area="181.3" />
+  <country name="Martinique" population="399151" area="1100" />
+  <country name="Mauritania" population="2336048" area="1030700" />
+  <country name="Mauritius" population="1140256" area="1860" />
+  <country name="Mayotte" population="100838" area="375" />
   <country name="Mexico" population="95772464" area="1972550">
     <city>
       <name>Nezahualcoyotl</name>
@@ -843,9 +844,9 @@
       <population>9815795</population>
     </city>
   </country>
-  <country name="Micronesia" population="125377" area="702"/>
-  <country name="Moldova" population="4463847" area="33700"/>
-  <country name="Monaco" population="31719" area="1.9"/>
+  <country name="Micronesia" population="125377" area="702" />
+  <country name="Moldova" population="4463847" area="33700" />
+  <country name="Monaco" population="31719" area="1.9" />
   <country name="Mongolia" population="2496617" area="1565000">
     <language percentage="90">Khalkha Mongol</language>
   </country>
@@ -870,7 +871,7 @@
     <language percentage="7">English</language>
     <language percentage="60">Afrikaans</language>
   </country>
-  <country name="Nauru" population="10273" area="21"/>
+  <country name="Nauru" population="10273" area="21" />
   <country name="Nepal" population="22094032" area="140800">
     <language percentage="100">Nepali</language>
   </country>
@@ -885,9 +886,9 @@
     </city>
     <language percentage="100">Dutch</language>
   </country>
-  <country name="Netherlands Antilles" population="208968" area="960"/>
-  <country name="New Caledonia" population="187784" area="19060"/>
-  <country name="New Zealand" population="3547983" area="268680"/>
+  <country name="Netherlands Antilles" population="208968" area="960" />
+  <country name="New Caledonia" population="187784" area="19060" />
+  <country name="New Zealand" population="3547983" area="268680" />
   <country name="Nicaragua" population="4272352" area="129494">
     <city>
       <name>Managua</name>
@@ -895,7 +896,7 @@
     </city>
     <language percentage="100">Spanish</language>
   </country>
-  <country name="Niger" population="9113001" area="1267000"/>
+  <country name="Niger" population="9113001" area="1267000" />
   <country name="Nigeria" population="103912488" area="923770">
     <city>
       <name>Lagos</name>
@@ -906,8 +907,8 @@
       <population>1263000</population>
     </city>
   </country>
-  <country name="Niue" population="2174" area="260"/>
-  <country name="Norfolk Island" population="2209" area="34.6"/>
+  <country name="Niue" population="2174" area="260" />
+  <country name="Norfolk Island" population="2209" area="34.6" />
   <country name="North Korea" population="23904124" area="120540">
     <city>
       <name>Pyongyang</name>
@@ -915,11 +916,11 @@
     </city>
     <language percentage="100">Korean</language>
   </country>
-  <country name="Northern Mariana Islands" population="52284" area="477"/>
+  <country name="Northern Mariana Islands" population="52284" area="477" />
   <country name="Norway" population="4383807" area="324220">
     <language percentage="100">Norwegian</language>
   </country>
-  <country name="Oman" population="2186548" area="212460"/>
+  <country name="Oman" population="2186548" area="212460" />
   <country name="Pakistan" population="129275664" area="803940">
     <city>
       <name>Hyderabad</name>
@@ -962,14 +963,14 @@
     <language percentage="1">Brahui</language>
     <language percentage="10">Siraiki</language>
   </country>
-  <country name="Palau" population="16952" area="458"/>
+  <country name="Palau" population="16952" area="458" />
   <country name="Panama" population="2655094" area="78200">
     <language percentage="14">English</language>
   </country>
   <country name="Papua New Guinea" population="4394537" area="461690">
     <language percentage="1">English</language>
   </country>
-  <country name="Paraguay" population="5504146" area="406750"/>
+  <country name="Paraguay" population="5504146" area="406750" />
   <country name="Peru" population="24523408" area="1285220">
     <city>
       <name>Lima</name>
@@ -994,7 +995,7 @@
       <population>1007000</population>
     </city>
   </country>
-  <country name="Pitcairn Islands" population="56" area="47"/>
+  <country name="Pitcairn Islands" population="56" area="47" />
   <country name="Poland" population="38642564" area="312683">
     <city>
       <name>Warsaw</name>
@@ -1005,9 +1006,9 @@
   <country name="Portugal" population="9865114" area="92080">
     <language percentage="100">Portuguese</language>
   </country>
-  <country name="Puerto Rico" population="3819023" area="9104"/>
-  <country name="Qatar" population="547761" area="11000"/>
-  <country name="Reunion" population="679198" area="2510"/>
+  <country name="Puerto Rico" population="3819023" area="9104" />
+  <country name="Qatar" population="547761" area="11000" />
+  <country name="Reunion" population="679198" area="2510" />
   <country name="Romania" population="21657162" area="237500">
     <city>
       <name>Bucharest</name>
@@ -1069,18 +1070,18 @@
     </city>
     <language percentage="100">Russian</language>
   </country>
-  <country name="Rwanda" population="6853359" area="26340"/>
+  <country name="Rwanda" population="6853359" area="26340" />
   <country name="Saint Helena" population="6782" area="410">
     <language percentage="100">English</language>
   </country>
   <country name="Saint Kitts and Nevis" population="41369" area="269">
     <language percentage="100">English</language>
   </country>
-  <country name="Saint Lucia" population="157862" area="620"/>
+  <country name="Saint Lucia" population="157862" area="620" />
   <country name="Saint Pierre and Miquelon" population="6809" area="242">
     <language percentage="100">French</language>
   </country>
-  <country name="Saint Vincent and the Grenadines" population="118344" area="340"/>
+  <country name="Saint Vincent and the Grenadines" population="118344" area="340" />
   <country name="San Marino" population="24521" area="60">
     <language percentage="100">Italian</language>
   </country>
@@ -1108,15 +1109,15 @@
     <language percentage="5">Albanian</language>
     <language percentage="95">Serbo-Croatian</language>
   </country>
-  <country name="Seychelles" population="77575" area="455"/>
-  <country name="Sierra Leone" population="4793121" area="71740"/>
+  <country name="Seychelles" population="77575" area="455" />
+  <country name="Sierra Leone" population="4793121" area="71740" />
   <country name="Singapore" population="3396924" area="632.6">
     <city>
       <name>Singapore</name>
       <population>2558000</population>
     </city>
   </country>
-  <country name="Slovakia" population="5374362" area="48845"/>
+  <country name="Slovakia" population="5374362" area="48845" />
   <country name="Slovenia" population="1951443" area="20256">
     <language percentage="91">Slovenian</language>
     <language percentage="7">Serbo-Croatian</language>
@@ -1124,8 +1125,8 @@
   <country name="Solomon Islands" population="412902" area="28450">
     <language percentage="1">English</language>
   </country>
-  <country name="Somalia" population="9639151" area="637660"/>
-  <country name="South Africa" population="41743460" area="1219912"/>
+  <country name="Somalia" population="9639151" area="637660" />
+  <country name="South Africa" population="41743460" area="1219912" />
   <country name="South Korea" population="45482292" area="98480">
     <city>
       <name>Seoul</name>
@@ -1179,9 +1180,9 @@
       <population>1267077</population>
     </city>
   </country>
-  <country name="Suriname" population="436418" area="163270"/>
-  <country name="Svalbard" population="2715" area="62049"/>
-  <country name="Swaziland" population="998730" area="17360"/>
+  <country name="Suriname" population="436418" area="163270" />
+  <country name="Svalbard" population="2715" area="62049" />
+  <country name="Swaziland" population="998730" area="17360" />
   <country name="Sweden" population="8900954" area="449964">
     <language percentage="100">Swedish</language>
   </country>
@@ -1207,7 +1208,7 @@
       <population>2626138</population>
     </city>
   </country>
-  <country name="Tajikistan" population="5916373" area="143100"/>
+  <country name="Tajikistan" population="5916373" area="143100" />
   <country name="Tanzania" population="29058470" area="945090">
     <city>
       <name>Dar es Salaam</name>
@@ -1220,10 +1221,10 @@
       <population>5876000</population>
     </city>
   </country>
-  <country name="Togo" population="4570530" area="56790"/>
-  <country name="Tonga" population="106466" area="748"/>
-  <country name="Trinidad and Tobago" population="1272385" area="5130"/>
-  <country name="Tunisia" population="9019687" area="163610"/>
+  <country name="Togo" population="4570530" area="56790" />
+  <country name="Tonga" population="106466" area="748" />
+  <country name="Trinidad and Tobago" population="1272385" area="5130" />
+  <country name="Tunisia" population="9019687" area="163610" />
   <country name="Turkey" population="62484480" area="780580">
     <city>
       <name>Adana</name>
@@ -1250,8 +1251,8 @@
   <country name="Turks and Caicos Islands" population="14302" area="430">
     <language percentage="100">English</language>
   </country>
-  <country name="Tuvalu" population="10146" area="26"/>
-  <country name="Uganda" population="20158176" area="236040"/>
+  <country name="Tuvalu" population="10146" area="26" />
+  <country name="Uganda" population="20158176" area="236040" />
   <country name="Ukraine" population="50864008" area="603700">
     <city>
       <name>Dnipropetrovsk</name>
@@ -1274,7 +1275,7 @@
       <population>1106000</population>
     </city>
   </country>
-  <country name="United Arab Emirates" population="3057337" area="75581"/>
+  <country name="United Arab Emirates" population="3057337" area="75581" />
   <country name="United Kingdom" population="58489976" area="244820">
     <city>
       <name>London</name>
@@ -1342,7 +1343,7 @@
     <language percentage="4.4">Tajik</language>
     <language percentage="74.3">Uzbek</language>
   </country>
-  <country name="Vanuatu" population="177504" area="14760"/>
+  <country name="Vanuatu" population="177504" area="14760" />
   <country name="Venezuela" population="21983188" area="912050">
     <city>
       <name>Maracaibo</name>
@@ -1367,10 +1368,10 @@
       <population>3924435</population>
     </city>
   </country>
-  <country name="Virgin Islands" population="97120" area="352"/>
-  <country name="Wallis and Futuna" population="14659" area="274"/>
-  <country name="Western Sahara" population="222631" area="266000"/>
-  <country name="Western Samoa" population="214384" area="2860"/>
+  <country name="Virgin Islands" population="97120" area="352" />
+  <country name="Wallis and Futuna" population="14659" area="274" />
+  <country name="Western Sahara" population="222631" area="266000" />
+  <country name="Western Samoa" population="214384" area="2860" />
   <country name="Yemen" population="13483178" area="527970">
     <language percentage="100">Arabic</language>
   </country>
@@ -1380,6 +1381,6 @@
       <population>4655313</population>
     </city>
   </country>
-  <country name="Zambia" population="9159072" area="752610"/>
-  <country name="Zimbabwe" population="11271314" area="390580"/>
+  <country name="Zambia" population="9159072" area="752610" />
+  <country name="Zimbabwe" population="11271314" area="390580" />
 </countries>
