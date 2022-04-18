@@ -15,18 +15,17 @@
                         <th>Numero de Habitantes</th>
                         <th>Densidad</th>
                     </tr>
-                    <tr>
+                    <xsl:for-each select="//language[.='Spanish']">
+                        <tr>
                         <td>
-                            <xsl:variable name="lengua" select="countries/country/language"/>
-                            <xsl:if test="contains($lengua,'spanish')">
-                                <xsl:for-each select="../country">
-                                    <td>
-                                        <xsl:value-of select="@name"/>
-                                    </td>
-                                </xsl:for-each>
-                            </xsl:if>
+                            <xsl:value-of select="../@name"/>
                         </td>
-                    </tr>
+                        </tr>
+                    </xsl:for-each>
+                    <xsl:for-each select="countries/country/language[.='Spanish']">
+                        
+                    </xsl:for-each>
+                                
                 </table>
             </body>
         </html>
