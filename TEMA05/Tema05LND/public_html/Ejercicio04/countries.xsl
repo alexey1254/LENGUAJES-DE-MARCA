@@ -11,9 +11,9 @@
                 <table border="1px">
                     <tr>
                         <th>Nombre del Pais</th>
-                        <th>Numero de Lenguas</th>
-                        <th>Numero de Habitantes</th>
                         <th>Densidad</th>
+                        <th>Numero de Habitantes</th>
+                        <th>Numero de Lenguas</th>
                     </tr>
                     <xsl:for-each select="//language[.='Spanish']">
                         <tr>
@@ -22,9 +22,16 @@
                         </td>
                         </tr>
                     </xsl:for-each>
-                    <xsl:for-each select="countries/country/language[.='Spanish']">
-                        
-                    </xsl:for-each>
+                    <tr>
+                        <xsl:for-each select="//language[.='Spanish']">
+                            <tr>
+                                <td>
+                                    <xsl:value-of select="countries/country[ @population div @area ]"/>
+                                </td>
+                            </tr>
+                        </xsl:for-each>
+                    </tr>
+                    
                                 
                 </table>
             </body>
