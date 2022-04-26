@@ -15,20 +15,9 @@
                         <th>Numero de Habitantes</th>
                         <th>Numero de Lenguas</th>
                     </tr>
-                    <xsl:for-each select="//language[.='Spanish']">
-                        <tr>
-                        <td>
-                            <xsl:value-of select="../@name"/>
-                        </td>
-                        </tr>
-                    </xsl:for-each>
-                    <xsl:for-each select="//language[.='Spanish']">
-                        <tr>
-                            <td>
-                                <xsl:value-of select="/[(@population div @area)]"/>
-                            </td>
-                        </tr>
-                    </xsl:for-each>
+                    <tr>
+                        
+                    </tr>
                 </table>
             </body>
         </html>
