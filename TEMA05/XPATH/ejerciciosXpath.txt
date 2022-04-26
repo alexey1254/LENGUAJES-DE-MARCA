@@ -32,7 +32,12 @@
 
 9) Nombre del país más poblado y del menos poblado
 
+
+
 10) Nombre y Población de los países cuya población sea superior a 5 veces la de Andorra
 
+
+
 11) Ciudades más pobladas de cada país, que empiecen por la letra B y el país al que pertenecen
+
 
