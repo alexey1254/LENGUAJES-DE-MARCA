@@ -32,7 +32,7 @@ countries/country[language = 'German'][language/@percentage > 50]/@name
 
 9) Nombre del país más poblado y del menos poblado
 
-/countries/country[max((@population))/]@name | /countries/country[min((@population))]/@name
+/countries/country[max((@population))]/@name | /countries/country[min((@population))]/@name
 
 10) Nombre y Población de los países cuya población sea superior a 5 veces la de Andorra
 
@@ -40,4 +40,4 @@ countries/country[language = 'German'][language/@percentage > 50]/@name
 
 11) Ciudades más pobladas de cada país, que empiecen por la letra B y el país al que pertenecen
 
-/countries/country/city[starts-with(name,'B') and max((population))]/name  | /countries/country/city[starts-with(name,'B') and max((population))]/population
+/countries/country/city[starts-with(name,'B') and max((population))]/name | /countries/country/city[starts-with(name,'B') and max((population))]/population
