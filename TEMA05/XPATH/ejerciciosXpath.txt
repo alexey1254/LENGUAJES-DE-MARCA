@@ -24,20 +24,20 @@
 
 7) Población media de los países en los que se habla ruso
 
-/countries/country[language = 'Russian']/@population (Falta la media AVG())
+avg(/countries/country[language = 'Russian']/@population)
 
 8) Nombre de los países donde más del 50% de la población habla alemán
 
-
+countries/country[language = 'German'][language/@percentage > 50]/@name
 
 9) Nombre del país más poblado y del menos poblado
 
-
+/countries/country[max((@population))/]@name | /countries/country[min((@population))]/@name
 
 10) Nombre y Población de los países cuya población sea superior a 5 veces la de Andorra
 
-
+/countries/country/@name[@name="Andorra" and @population>(@population)*5] | /countries/country/@population[@name="Andorra" and @population>(@population)*5]
 
 11) Ciudades más pobladas de cada país, que empiecen por la letra B y el país al que pertenecen
 
-
+/countries/country/city[starts-with(name,'B') and max((population))]/name  | /countries/country/city[starts-with(name,'B') and max((population))]/population
