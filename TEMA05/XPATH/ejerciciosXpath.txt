@@ -40,4 +40,4 @@ countries/country[language = 'German'][language/@percentage > 50]/@name
 
 11) Ciudades más pobladas de cada país, que empiecen por la letra B y el país al que pertenecen
 
-/countries/country/city[starts-with(name,'B') and max((population))]/name
+/countries/country/city[starts-with(name,'B') and max(population)]/../@name | /countries/country/city[starts-with(name,'B') and max(population)]/name
