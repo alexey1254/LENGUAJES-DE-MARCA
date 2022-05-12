@@ -2,6 +2,9 @@
 
 /countries/country[@name = 'Mongolia']/@area
 
+
+
+
 2) Países con más de 100 millones de habitantes
 
 /countries/country[@population > 100000000]/@name
@@ -40,4 +43,4 @@ countries/country[language = 'German'][language/@percentage > 50]/@name
 
 11) Ciudades más pobladas de cada país, que empiecen por la letra B y el país al que pertenecen
 
-/countries/country/city[starts-with(name,'B') and max(population)]/../@name | /countries/country/city[starts-with(name,'B') and max(population)]/name
+/countries/country[starts-with(@name,'B') and max(@population)]/@name | /countries/country/city[starts-with(name,'B') and max(population)]/name
