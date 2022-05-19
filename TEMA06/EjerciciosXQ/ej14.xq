@@ -1,5 +1,9 @@
-let $profesores:=doc("bailes.xml")/bailes/baile/profesor
-let $distinct-prof:=distinct-values($profesores)
-let $salas:=doc("bailes.xml")/bailes/baile[profesor=$distinct-prof]
+for $profesor in distinct-values(doc("bailes.xml")//profesor)
+let $salas:=distinct-values(doc("bailes.xml")//baile[profesor=$profesor]/sala)
+return
+<profesor>
+    <nombre>{$profesor}</nombre>
+    <salas>{$salas}</salas>
+</profesor>
 
 
