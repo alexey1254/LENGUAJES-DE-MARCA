@@ -1,0 +1,10 @@
+{
+    "titulo":"La bamba",
+    "grupo":"Ritchi Valence",
+    "autores":[
+        {"autor":"Ritchie Valence"},
+        {"autor":"Del otro no me acuerdo"}
+    ],
+    "anio":1973,
+    "album":"La vida es una barca"
+}

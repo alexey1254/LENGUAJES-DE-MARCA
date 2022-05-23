@@ -1,0 +1,60 @@
+{
+    "cds":[
+        {
+            "titulo":"Finisterre",
+            "artista":"Mago de oz",
+            "canciones":[
+                {
+                    "nombre":"Prologo",
+                    "duracion":"00:02:00"
+                },
+                {
+                    "nombre":"La cruz de santiago",
+                    "duracion":"00:05:20"
+                },
+                {
+                    "nombre":"La danza del fuego",
+                    "duracion":"00:05:14"
+                },
+                {
+                    "nombre":"Hasta que el cuerpo aguante",
+                    "duracion":"00:04:33"
+                },
+                {
+                    "nombre":"Sin comentarios",
+                    "duracion":"00:04:31"
+                }
+            ],
+            "sello":"Box Madrid",
+            "anio":2000
+        },
+        {
+            "titulo":"Almanauta",
+            "artista":"Nach",
+            "canciones":[
+                {
+                    "nombre":"Grande",
+                    "duracion":"00:03:48"
+                },
+                {
+                    "nombre":"Los dos lados del telon",
+                    "duracion":"00:04:29"
+                },
+                {
+                    "nombre":"Antartida",
+                    "duracion":"00:04:11"
+                },
+                {
+                    "nombre":"Rap bruto",
+                    "duracion":"00:06:01"
+                },
+                {
+                    "nombre":"Los zurdos mueren antes",
+                    "duracion":"00:07:37"
+                }
+            ],
+            "sello":"Universal Music Spain S.L",
+            "anio":2018
+        }
+    ]
+}
