@@ -3,8 +3,6 @@
 /countries/country[@name = 'Mongolia']/@area
 
 
-
-
 2) Países con más de 100 millones de habitantes
 
 /countries/country[@population > 100000000]/@name
