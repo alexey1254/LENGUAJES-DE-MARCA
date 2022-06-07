@@ -6,7 +6,7 @@
         ],
         "investigadores":[
             {"DNI":"12345678Z","facultad":1,"NomApell":"Luis Rodriguez Garcia"},
-            {"DNI":"12345679D","facultad":2,"NomApell":Maria Lopez}
+            {"DNI":"12345679D","facultad":2,"NomApell":"Maria Lopez"}
         ],
         "equipos":[
             {"NumSerie":"Cnqead12312","Nombre":"Pc123333"},
